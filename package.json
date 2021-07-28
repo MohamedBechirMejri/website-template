@@ -1,0 +1,19 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedBechirMejri/webpack-template.git"
+  },
+  "author": "MohamedBechirMejri <mohamed.bechir.mejri.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedBechirMejri/webpack-template/issues"
+  },
+  "homepage": "https://github.com/MohamedBechirMejri/webpack-template#readme"
+}
