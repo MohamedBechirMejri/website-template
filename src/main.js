@@ -1,4 +1,4 @@
-import './style.scss';
+import './main.scss';
 
 import exportFunc from './js/subScript1';
 
