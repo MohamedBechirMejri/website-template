@@ -6,7 +6,7 @@ const DashboardPlugin = require('webpack-dashboard/plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  entry: './src/main.js',
   devtool: 'inline-source-map',
   output: {
     filename: '[name].[contenthash].js',
