@@ -1,5 +1,5 @@
 {
-  "name": "webpack-template",
+  "name": "website-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MohamedBechirMejri/webpack-template.git"
+    "url": "git+https://github.com/MohamedBechirMejri/website-template.git"
   },
   "author": "MohamedBechirMejri <mohamed.bechir.mejri.dev@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MohamedBechirMejri/webpack-template/issues"
+    "url": "https://github.com/MohamedBechirMejri/website-template/issues"
   },
-  "homepage": "https://github.com/MohamedBechirMejri/webpack-template#readme",
+  "homepage": "https://github.com/MohamedBechirMejri/website-template#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^6.2.0",
