@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "webpack-dashboard -- webpack serve --config dev.config.js --open",
+    "start": "webpack-dashboard --webpack serve --config dev.config.js --open",
     "build": "webpack"
   },
   "repository": {
