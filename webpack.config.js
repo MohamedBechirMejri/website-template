@@ -8,7 +8,6 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 module.exports = {
   entry: {
     main: './src/main.js',
-    vendor: './src/vendor.js',
   },
   mode: 'production',
   output: {

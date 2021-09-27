@@ -8,7 +8,6 @@ module.exports = {
   mode: 'development',
   entry: {
     main: './src/main.js',
-    vendor: './src/vendor.js',
   },
   devtool: 'inline-source-map',
   output: {
