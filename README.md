@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to website-template 👋</h1>
-<p>
+<p align="center">
   <a href="https://www.npmjs.com/package/website-template" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/website-template.svg">
   </a>
@@ -35,7 +35,7 @@ npm run start
 
 ## Author
 
-👤 **MohamedBechirMejri <mohamed.bechir.mejri.dev@gmail.com>**
+👤 **MohamedBechirMejri**
 
 - Twitter: [@MohamedBechirMB](https://twitter.com/MohamedBechirMB)
 - Github: [@MohamedBechirMejri](https://github.com/MohamedBechirMejri)
