@@ -1,35 +1,31 @@
-const path = require('path');
-// eslint-disable-next-line import/no-extraneous-dependencies
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-// eslint-disable-next-line import/no-extraneous-dependencies
-const DashboardPlugin = require('webpack-dashboard/plugin');
+import { resolve } from 'path';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import DashboardPlugin from 'webpack-dashboard/plugin';
 
-module.exports = {
-    mode: 'development',
-    entry: {
-        main: './src/main.js',
+export const mode = 'development';
+export const entry = {
+    main: './src/main.js',
+};
+export const devtool = 'inline-source-map';
+export const output = {
+    filename: '[name].[contenthash].js',
+    path: resolve(__dirname, 'dist'),
+};
+export const optimization = {};
+export const plugins = [
+    new HtmlWebpackPlugin({
+        template: './src/template.html',
+    }),
+    new DashboardPlugin(),
+];
+export const module = {
+    rules: [{
+        test: /\.html$/i,
+        use: ['html-loader'],
     },
-    devtool: 'inline-source-map',
-    output: {
-        filename: '[name].[contenthash].js',
-        path: path.resolve(__dirname, 'dist'),
+    {
+        test: /\.s[ac]ss$/i,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
     },
-    optimization: {},
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: './src/template.html',
-        }),
-        new DashboardPlugin(),
     ],
-    module: {
-        rules: [{
-                test: /\.html$/i,
-                use: ['html-loader'],
-            },
-            {
-                test: /\.s[ac]ss$/i,
-                use: ['style-loader', 'css-loader', 'sass-loader'],
-            },
-        ],
-    },
 };
