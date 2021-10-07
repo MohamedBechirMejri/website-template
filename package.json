@@ -40,5 +40,6 @@
   },
   "dependencies": {
     "axios": "^0.22.0"
-  }
+  },
+  "packageManager": "yarn@3.0.2"
 }
