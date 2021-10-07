@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "test": "jest",
     "start": "webpack-dashboard -- webpack serve --config dev.config.js --open",
     "build": "webpack"
   },
