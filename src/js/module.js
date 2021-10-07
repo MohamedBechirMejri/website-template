@@ -1,5 +1,5 @@
-const module = () => {
+const f = () => {
   console.log(`Hello World!`);
 };
 
-export default module;
+export default f;

@@ -1,5 +1,5 @@
 import './main.scss';
 
-import module from './js/module';
+import f from './js/module';
 
-module();
+f();
