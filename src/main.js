@@ -1,5 +1,5 @@
 import './main.scss';
 
-import exportFunc from './js/subScript1';
+import module from './js/module';
 
-exportFunc();
+module();
