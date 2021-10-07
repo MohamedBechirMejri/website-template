@@ -39,7 +39,6 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "axios": "^0.22.0",
-    "npm": "^7.24.2"
+    "axios": "^0.22.0"
   }
 }
