@@ -2,4 +2,4 @@ const exportFunc = () => {
   // console.log(`Hello World!`);
 };
 
-export default { exportFunc };
+export default exportFunc;
