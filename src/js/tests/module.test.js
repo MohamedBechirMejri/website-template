@@ -1,5 +1,5 @@
 import f from '../module'
 
-test('adds 1 + 2 to equal 3', () => {
+it(`should return 'Hello World!'`, () => {
   expect(f()).toBe(`Hello World!`);
 });
