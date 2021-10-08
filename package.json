@@ -15,6 +15,7 @@
   "author": "username <email>",
   "babel": {
     "presets": [
+      "babel-jest",
       "@babel/preset-env"
     ]
   },
