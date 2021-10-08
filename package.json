@@ -13,12 +13,6 @@
     "url": "git+https://github.com/username/project.git"
   },
   "author": "username <email>",
-  "babel": {
-    "presets": [
-      "babel-jest",
-      "@babel/preset-env"
-    ]
-  },
   "license": "ISC",
   "homepage": "https://github.com/username/project#readme",
   "devDependencies": {
