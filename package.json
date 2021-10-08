@@ -13,11 +13,17 @@
     "url": "git+https://github.com/username/project.git"
   },
   "author": "username <email>",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
   "license": "ISC",
   "homepage": "https://github.com/username/project#readme",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
+    "babel-jest": "^27.2.4",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.3.0",
