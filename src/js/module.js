@@ -1,5 +1,3 @@
-const f = () => {
-  console.log(`Hello World!`);
-};
+const f = () => `Hello World!`;
 
 export default f;
