@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "jest --colors --watch",
+    "test": "jest --colors --watch --coverage",
     "start": "webpack-dashboard -- webpack serve --config dev.config.js --open",
     "build": "webpack"
   },
