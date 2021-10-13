@@ -1,5 +1,7 @@
-import f from '../module'
+import f from '../module';
 
-it(`should return 'Hello World!'`, () => {
-  expect(f()).toBe(`Hello World!`);
+describe('', () => {
+  it(`should `, () => {
+    expect(f()).toBe(``);
+  });
 });
